@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Insertar CSS en la cabecera, no recomendable salvo que tengamos una sola página o para pruebas
+    <style>
+        p {
+            color: red;
+        }
+    </style> -->
+        <!-- Trayendo una hoja de estilos externa, la forma mas recomendada para poder reutilizar el codigo. -->
+        <link rel="stylesheet" href="styles-dist.css">
+    <!-- <style>
+        Importando con la regla @import url(), esta forma no se recomienda para evitar posibles fallos
+        @import url("styles-dist.css");
+    </style> -->
+</head>
+<body>
+    <!--  
+        Estilo en linea, no recomendado para estilos estáticos, solo para estilos que se tienen que calcular
+        en tiempo real, con JavaScript por ejemplo.
+        <h1 style="color: blue;">Soy un encabezado principal</h1> -->
+    <h1>Selector de etiqueta</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos harum inventore aliquid iste? 
+        Necessitatibus praesentium iure vitae a? Quas, vel sint id totam repellat facere non vitae facilis 
+        quis eaque ipsam? Nulla qui adipisci atque quas quia quis, aspernatur expedita provident totam praesentium
+    </p>
+    <h1 class="title">Selector de clase</h1>
+    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos harum inventore aliquid iste? 
+        Necessitatibus praesentium iure vitae a? Quas, vel sint id totam repellat facere non vitae facilis 
+        quis eaque ipsam? Nulla qui adipisci atque quas quia quis, aspernatur expedita provident totam praesentium 
+    </p>
+
+    <h1 id="title">Selector de ID</h1>
+    <p id="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos harum inventore aliquid iste? 
+        Necessitatibus praesentium iure vitae a? Quas, vel sint id totam repellat facere non vitae facilis 
+        quis eaque ipsam? Nulla qui adipisci atque quas quia quis, aspernatur expedita provident totam praesentium 
+    </p>
+    <a class="rojo verde" href="">Enlace 1 rojo verde</a>
+    <a class="rojo" href="#">Enlace 2 rojo</a>
+    <a class="verde" href="#">Enlace 3 verde</a>
+    <a class="verde rojo" href="#">Enlace 4 verde rojo</a>
+
+    <h1>Título</h1>
+    <h2>Subtítulo</h2>
+    <h2>Otro Subtítulo</h2>
+    <h3>Otro Subtítulo mas</h3>
+    <h3>Otro Subtítulo mas+++++++</h3>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur iure amet vel quos
+            tempore reprehenderit eaque voluptatem <span>SOY UN SPAN</span> quod eligendi, est debitis atque quia totam ullam 
+            cum obcaecati id repudiandae dicta fugit quasi? Aut nostrum accusantium illum reiciendis, 
+            est rerum corrupti laborum! Architecto non laboriosam iusto id quos? Quae, molestiae a.
+        </p>
+        <span>Este es otro SPAN</span>
+    </div>
+</body>
+</html>
